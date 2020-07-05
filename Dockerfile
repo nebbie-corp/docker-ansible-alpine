@@ -28,6 +28,7 @@ RUN echo "=== INSTALLING SYS DEPS" && \
         ansible==$ANSIBLE_VERSION \
         botocore \
         boto \
+        openshift \
         boto3 && \
     \
     echo "=== Cleanup this mess ===" \
